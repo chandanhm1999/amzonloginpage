@@ -1,0 +1,275 @@
+.title {
+    position: absolute;
+    left: 3.5%;
+    right: 65%;
+    top: 2.5%;
+    bottom: 87.54%;
+
+    /* Inside-Title */
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 32px;
+    /* identical to box height */
+
+    text-align: center;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.name {
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 6%;
+    right: 450px;
+    top: 100px;
+    bottom: 385px;
+    background: rgba(6, 6, 6, 0.89);
+}
+
+.name input {
+    position: absolute;
+    background: #FCFCFC;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 154.4%;
+    /* or 25px */
+
+    text-align: start;
+
+    color: black;
+    background-color: White;
+}
+
+.name input::placeholder {
+    margin: 140px;
+    padding-left: 8px;
+}
+
+.email {
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 6%;
+    right: 450px;
+    top: 160px;
+    bottom: 325px;
+
+    background: rgba(6, 6, 6, 0.89);
+    
+}
+.email input {
+    position: absolute;
+    background: #FCFCFC;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 154.4%;
+    /* or 25px */
+
+    text-align: start;
+
+    color: black;
+    background-color: White;
+}
+
+.email input::placeholder {
+    margin: 140px;
+    padding-left: 8px;
+}
+
+.tel {
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 6%;
+    right: 450px;
+    top: 220px;
+    bottom: 265px;
+
+    background: rgba(6, 6, 6, 0.89);
+}
+.tel input {
+    position: absolute;
+    background: #FCFCFC;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 154.4%;
+    /* or 25px */
+
+    text-align: start;
+
+    color: black;
+    background-color: White;
+}
+
+.tel input::placeholder {
+    margin: 0px;
+    padding-left: 8px;
+}
+
+.message {
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 6%;
+    right: 6%;
+    top: 280px;
+    bottom: 130px;
+
+    background: rgba(255, 255, 255, 0.35);
+    
+}
+
+.message textarea {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 154.4%;
+    /* or 25px */
+
+    background-color: white;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.message textarea::placeholder {
+    padding-left: 8px;
+}
+
+.address {
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 51.63%;
+    right: 6%;
+    top: 100px;
+    bottom: 265px;
+
+    background: rgba(255, 255, 255, 0.35);
+}
+
+.address input {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    padding-bottom: 120px;
+    padding-left: 8px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 154.4%;
+    /* or 25px */
+
+    background-color: white;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.submit button {
+    position: absolute;
+    left: 655px;
+    right: 0%;
+    top: 450px;
+    bottom: 44px;
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: unset;
+    padding-left: 76px;
+    align-items: center;
+
+    width: 146px;
+    height: 40px;
+
+    /* Primary */
+
+    background: #6CBF3C;
+    /* Primary */
+
+    border: 1px solid #6CBF3C;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.submit button {
+    
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.00892857em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    background-color: #6CBF3C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    cursor: pointer;
+}
+
+.submit button .send {
+    position: absolute;
+    left: 40px;
+    font-size: 20px;
+    background: #6CBF3C;
+}
+.submit {
+    position: relative;
+    left: ;
+    right: 0;
+    top: 0px;
+    bottom: 0px;
+    box-sizing: border-box;;
+    padding-inline: 123px;
+    margin-left: 20px;
+}

@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
+.card {
+    box-sizing: border-box;
+    position: relative;
+    width: 348px;
+    height: 279.6px;
+    top: 0px;
+    margin: 0 auto;
+    text-size-adjust: 100%;
+    line-height: 19px;
+    color: rgb(17, 17, 17);
+    background: rgb(255, 255, 255);
+    font-size: 13px;
+    border-radius: 4px;
+    border: 1px solid rgb(206, 199, 199);
+}
+
+.title {
+    box-sizing: border-box;
+    display: block;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33.36px;
+    text-size-adjust: 100%;
+    color: rgb(17, 17, 17);
+    margin-bottom: 10px;
+    margin-left: 0.69em;
+    padding-bottom: 4px;
+    margin-block-end: 10px;
+    text-rendering: optimizeLegibility;
+}
+.mobile {
+    display: block;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-weight: 700;
+    margin-left: 20px;
+    box-sizing: border-box;
+    display: block;
+    color: rgb(17, 17, 17);
+    list-style: 19px;
+}
+.tel {
+    box-sizing: border-box;
+    display: inline-block;
+    height: 31px;
+    padding-left: 7px;
+    padding-right: 135px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    margin-left: 20px;
+    text-align: start;
+    border-color: rgba(148, 148, 148);
+    border-width: 1px; 
+    border-radius: 3px;
+}
+.submit button {
+    color: rgb(17, 17, 17);
+    cursor: pointer;
+    box-sizing: border-box;
+    display: block;
+    height: 29px;
+    position: relative;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+    text-size-adjust: 100%;
+    box-shadow: white;
+    cursor: pointer;
+    height: 31px;
+    display: inline-block;
+    box-sizing: border-box;;
+    padding-inline: 125px;
+    margin-left: 20px;
+    background-color: #f3d078;
+    border-radius: 3px;
+    border-color: #adb1b8 #a2a6ac #8d9096;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 12px;
+}
+.submit button:hover {
+    background-color: #f0c14b;
+}
+.conditions {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 18px;
+    text-size-adjust: 100%;
+    height: 36px;
+    display: block;
+    box-sizing: border-box;
+    color: rgb(17, 17, 17);
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.bold {
+    color: #0066c0;
+    cursor: pointer;
+    font-weight: bold;
+}
+.bold:hover {
+    color: #9C7E31;
+    text-decoration: underline;
+}
+.help {
+    color: rgb(0, 102, 192);
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 13px;
+    line-height: 19px;
+    overflow-wrap: break-word;
+    text-decoration-thickness: auto;
+    text-size-adjust: auto;
+    padding-left: 0px;
+    top: 237px;
+    position: absolute;
+    font-weight: bold;
+}
+.help:hover {
+    color: #9C7E31;
+    text-decoration: underline;
+}
+.new {
+    text-align: center;
+    position: relative;
+    top: 2px;
+    padding-top: 1px;
+    margin-bottom: 14px;
+    line-height: 0;
+}
+.newh5 {
+    line-height: 1;
+    font-size: 12px;
+    color: #767676;
+    font-weight: 400;
+    z-index: 2;
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    padding: 0 8px 0 7px;
+}
+.create button {
+    background: #E7E7E7;
+}
+.buton {
+    border: 1px solid silver;
+    display: block;
+    font-family: Arial,sans-serif;
+    font-size: 13px;
+    line-height: 29px;
+    margin: 0;
+    outline: 0;
+    padding: 0 10px 0 11px;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 3px;
+    margin: 0 auto;
+    padding-inline: 89px;
+
+}
+.buton:hover {
+    background-color: transparent;
+    background: #DDDDDD;
+}

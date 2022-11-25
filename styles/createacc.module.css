@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
+.card {
+    box-sizing: border-box;
+    position: relative;
+    width: 348px;
+    height: 653.6px;
+    top: 0px;
+    margin: 0 auto;
+    text-size-adjust: 100%;
+    line-height: 19px;
+    color: rgb(17, 17, 17);
+    background: rgb(255, 255, 255);
+    font-size: 13px;
+    border-radius: 4px;
+    border: 1px solid rgb(206, 199, 199);
+}
+.title {
+    box-sizing: border-box;
+    display: block;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33.36px;
+    text-size-adjust: 100%;
+    color: rgb(17, 17, 17);
+    margin-bottom: 10px;
+    margin-left: 0.69em;
+    padding-bottom: 4px;
+    margin-block-end: 10px;
+    text-rendering: optimizeLegibility;
+}
+.your {
+    display: block;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-weight: 700;
+    margin-left: 20px;
+    box-sizing: border-box;
+    display: block;
+    color: rgb(17, 17, 17);
+    list-style: 19px;
+}
+.name {
+    box-sizing: border-box;
+    display: inline-block;
+    height: 31px;
+    padding-left: 7px;
+    padding-right: 135px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    margin-left: 20px;
+    text-align: start;
+    border-color: rgba(148, 148, 148);
+    border-width: 1px; 
+    border-radius: 3px;
+}
+.mobile {
+    display: block;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-weight: 700;
+    margin-left: 20px;
+    box-sizing: border-box;
+    display: block;
+    color: rgb(17, 17, 17);
+    list-style: 19px;
+}
+.tel {
+    box-sizing: border-box;
+    display: inline-block;
+    height: 31px;
+    padding-left: 7px;
+    padding-right: 135px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    margin-left: 20px;
+    text-align: start;
+    border-color: rgba(148, 148, 148);
+    border-width: 1px;
+    border-radius: 3px;
+}
+.mail {
+    display: block;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-weight: 700;
+    margin-left: 20px;
+    box-sizing: border-box;
+    display: block;
+    color: rgb(17, 17, 17);
+    list-style: 19px; 
+}
+.email {
+    box-sizing: border-box;
+    display: inline-block;
+    height: 31px;
+    padding-left: 7px;
+    padding-right: 135px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    margin-left: 20px;
+    text-align: start;
+    border-color: rgba(148, 148, 148);
+    border-width: 1px;
+    border-radius: 3px;
+}
+.pass {
+    display: block;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-weight: 700;
+    margin-left: 20px;
+    box-sizing: border-box;
+    display: block;
+    color: rgb(17, 17, 17);
+    list-style: 19px; 
+}
+.password {
+    position: absolute;
+    box-sizing: border-box;
+    display: inline-block;
+    top: 295px;
+    left: 20px;
+    right: 20px;
+    bottom: 325px;
+    text-align: start;
+    border-color: rgba(148, 148, 148);
+    border-width: 1px;
+    border-radius: 3px;
+}
+.password::placeholder {
+    padding-left: 5px;
+}
+.word {
+    box-sizing: border-box;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    text-align: left;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgb(43, 43, 43);
+    margin-left: 20px;
+}
+.account {
+    padding-top: 6px;
+    margin-top: 0!important;
+    margin-bottom: 22px;
+    margin-top: 6px!important;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 20px;
+    padding-right: 10px;
+}
+.submit button {
+    color: black;
+    box-sizing: border-box;
+    display: block;
+    height: 29px;
+    position: relative;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+    text-size-adjust: 100%;
+    box-shadow: white;
+    cursor: pointer;
+    margin-bottom: 26px;
+    height: 31px;
+    display: inline-block;
+    box-sizing: border-box;;
+    padding-inline: 125px;
+    margin-left: 20px;
+    background-color: #f0c14b;
+    border-radius: 3px;
+    border-color: #adb1b8 #a2a6ac #8d9096;
+    border-style: solid;
+    border-width: 1px;
+}
+.submit button:hover {
+    background-color: orange;
+}
+.sign {
+    display: block;
+    width: 100%;
+    height: 44px;
+    background-color: transparent;
+    
+    z-index: 1;
+    content: "";
+    padding-left: 20px;
+}
+.conditions {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 18px;
+    text-size-adjust: 100%;
+    height: 36px;
+    display: block;
+    box-sizing: border-box;
+    color: rgb(17, 17, 17);
+    padding-left: 20px;
+}
